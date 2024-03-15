@@ -1,92 +1,107 @@
-body {
-  text-align: center;
-}
+ body {
+    text-align: center;
+ }
+ 
+ .footer {
+     border: solid 1px purple;
+     background: linear-gradient(300deg, #F1FADA, #9AD0C2, #2D9596);
+     background-size: 180% 180%;
+     display: flex;
+     justify-content: center;
+ }
 
-.footer {
-  border: solid 1px purple;
-  background: linear-gradient(300deg, #f1fada, #9ad0c2, #2d9596);
-  background-size: 180% 180%;
-  display: flex;
-  justify-content: center;
-}
+ .connected {
+     border: solid pink;
+     width: 40%;
+     margin-top: 5%;
+     margin-right: 50px;
+     margin-left: 0px;
+     display: flex;
+     text-align: center;
+ }
 
-.connected {
-  border: solid pink;
-  width: 40%;
-  margin-top: 5%;
-  margin-right: 50px;
-  margin-left: 0px;
-  display: flex;
-  text-align: center;
-}
+ .newsletter {
+     border: solid pink;
+     width: 100%;
+     margin-top: 5%;
+     margin-right: 10px;
+     margin-left: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+ }
 
-.newsletter {
-  border: solid pink;
-  width: 100%;
-  margin-top: 5%;
-  margin-right: 10px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
+ .box {
+     border: solid pink;
+     margin-top: 5%;
+     margin-right: 50px;
+     margin-left: 20px;
+     display: flex;
+     justify-content: center;
+ }
 
-.box {
-  border: solid pink;
-  margin-top: 5%;
-  margin-right: 50px;
-  margin-left: 20px;
-  display: flex;
-  justify-content: center;
-}
+ h2 {
+     text-align: center;
+ }
 
-h2 {
-  text-align: center;
-}
+ .text {
+     border: solid pink;
+     width: 25%;
+ }
 
-.text {
-  border: solid pink;
-  width: 25%;
-}
+ .link {
+     display: block;
+     width: 100%;
+ }
+ 
+ a:hover {
+     color: greenyellow;
+ }
 
-.link {
-  display: block;
-  width: 100%;
-}
+ .infobox {
+    text-align: center;
+ }
 
-a:hover {
-  color: greenyellow;
-}
+ * div {
+    text-align: center;
+ }
 
-.infobox {
-  text-align: center;
-}
+ #table {
+    border: solid 1px purple;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    width:50%
+    
+ }
 
-* div {
-  text-align: center;
-}
+ .picbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
 
-#table {
-  border: solid 1px purple;
-  margin-left: 35%;
-  margin-bottom: 5%;
-  width: 50%;
-}
 
-.picbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+#thankyoubox {
+   background-color: #265073;
+   animation-name: thankyoubox;
+   animation-duration: 4s;
+ }
 
-#thankyoubox:hover {
-  background-color: #9ad0c2;
-}
+ @keyframes thankyoubox {
+   from {
+     background-color: #9AD0C2;
+   }
 
-#btn {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  transition-duration: 3s;
-  transition-timing-function: ease-in;
-}
+   to {
+     background-color: #F1FADA;
+   }
+ }
+
+ #btn {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+
