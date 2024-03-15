@@ -1,44 +1,29 @@
 body {
-    background-color: #FFBB5C;
+    background-color: #FFE382;
     width: 100%;
 }
-
 .box1 {
     border: solid green;
     width: 100%;
     height: 100%;
-
-}
-
-.box2 {
- background: linear-gradient(300deg, #B7E5B4,#D9EDBF, #FFC700);
-background-size: 180% 180%;
-  
-
-}
-
-#box-5 {
-    border: solid pink;
-    width: 75%;
-    margin-top: 5%;
-    margin-right: 50px;
-    margin-left: 75px;
 }
 .t1 {
     border: solid purple;
     width: 25%;
     margin: 5px;
-    
+    text-align: center;
 }
 .t2 {
     border: solid purple;
     width: 25%;
     margin: 5px;
+    text-align: center;
 }
 .t3 {
     border: solid purple;
     width: 25%;
     margin: 5px;
+    text-align: center;
 }
 
 .tbox {
@@ -72,6 +57,66 @@ background-size: 180% 180%;
     justify-content: center;
 }
 
+
 p {
     text-align: center;
+}
+
+.box4 {
+    border: solid red;
+    width: 25%;
+    margin: 5px;
+
+}
+ .footer {
+    border: solid 1px purple;
+    background: linear-gradient(300deg, #F1FADA, #9AD0C2, #2D9596);
+    background-size: 180% 180%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .connected {
+     border: solid pink;
+     width: 40%;
+     margin-top: 5%;
+     margin-right: 50px;
+     margin-left: 0px;
+     display: flex;
+    text-align: center;
+ }
+
+ .newsletter {
+     border: solid pink;
+     width: 100%;
+     margin-top: 5%;
+     margin-right: 10px;
+     margin-left: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+ }
+ .box {
+    border: solid pink;
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ h2 {
+    text-align: center;
+ }
+ .text {
+    border: solid pink;
+    width: 25%;
+ }
+
+ #link {
+    display: block;
+    width:100% ;
+ }
+a:hover {
+    color: greenyellow;
 }

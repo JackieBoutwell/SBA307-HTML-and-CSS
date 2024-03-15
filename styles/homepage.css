@@ -1,9 +1,4 @@
 body {
-            background: linear-gradient(300deg, #C5EBAA, #F6F193, #F2C18D);
-            background-size: 180% 180%;
-}
-
-body {
     width: 100%;
 }
 
@@ -24,9 +19,9 @@ body {
 }
 
 #section1 {
-    width: 30%;
+    width: 100%;
     border: 1px solid red;
-    margin: 50px;
+    margin: 5px;
 
 }
 
@@ -37,43 +32,91 @@ body {
 
 }
 
-.section3 {
-    display: flex;
-    flex-direction: row;
+.main-box {
     width: 100%;
-
-}
-
-#box-1 {
-    border: solid black;
-    width: 75%;
-
-}
-
-#box-2 {
-    border: solid red;
-    width: 50%;
+    height: 25%;
+    border: solid green;
+    display: flex;
+    align-items: center;
 }
 
 #box-3 {
     border: solid green;
-    width: 100%;
-
+    width: %;
 }
 
-#box-4 {
+.picture {
     border: solid purple;
-    width: 75%;
-    margin-top: 25%;
-    margin-right: 50px;
-    margin-left: 75px;
-
+    text-align: center;
 }
 
-#box-5 {
+.info {
     border: solid pink;
-    width: 75%;
-    margin-top: 25%;
-    margin-right: 50px;
-    margin-left: 75px;
+    text-align: center;
 }
+
+.address {
+    border: solid red;
+        width: 50%;
+}
+.phone {
+    border: solid red;
+    width: 50%;
+}
+
+ .footer {
+     border: solid 1px purple;
+     background: linear-gradient(300deg, #F1FADA, #9AD0C2, #2D9596);
+     background-size: 180% 180%;
+     display: flex;
+     justify-content: center;
+ }
+
+ .connected {
+     border: solid pink;
+     width: 40%;
+     margin-top: 5%;
+     margin-right: 50px;
+     margin-left: 0px;
+     display: flex;
+     text-align: center;
+ }
+
+ .newsletter {
+     border: solid pink;
+     width: 100%;
+     margin-top: 5%;
+     margin-right: 10px;
+     margin-left: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+ }
+
+ .box {
+     border: solid pink;
+     margin-top: 5%;
+     margin-right: 50px;
+     margin-left: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ .text {
+     border: solid pink;
+     width: 25%;
+ }
+
+ #link {
+     display: block;
+     width: 100%;
+ }
+
+ a:hover {
+     color: greenyellow;
+ }
+

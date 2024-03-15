@@ -1,5 +1,5 @@
 body {
-  text-align: center;
+  width: 100%;
 }
 
 .footer {
@@ -49,7 +49,7 @@ h2 {
   width: 25%;
 }
 
-.link {
+#link {
   display: block;
   width: 100%;
 }
@@ -58,35 +58,19 @@ a:hover {
   color: greenyellow;
 }
 
-.infobox {
-  text-align: center;
-}
-
-* div {
-  text-align: center;
-}
-
-#table {
-  border: solid 1px purple;
-  margin-left: 35%;
-  margin-bottom: 5%;
-  width: 50%;
-}
-
-.picbox {
+.middlebox {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-#thankyoubox:hover {
-  background-color: #9ad0c2;
+h1 {
+  text-align: center;
 }
 
-#btn {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  transition-duration: 3s;
-  transition-timing-function: ease-in;
+.dropdown {
+  text-align: center;
 }
+
+.animation-2:hover {
+    background-color: #9ad0c2;
+        }
