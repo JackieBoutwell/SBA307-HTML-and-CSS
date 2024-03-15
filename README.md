@@ -5,3 +5,8 @@ The second page is the service page, on here you will find a table that helps th
 The third page is my favorite and this is the teams page. The teams page gives the user a chance to meet the team members that work at the salon. I had a lot of fun organizing the div boxes which contains the images and about me sections. It was really fun so see how external styling plus Flexbox really helped me create this look. 
 
 Lastly, is the Book an Appointment page. At the top of the page you will see my second CSS animation that says "Book your Appointment Today!. This page shows you and drop down menu of all the services. Followed by the second form that will be filled out to book your appointment. At the bottom of the page you will see  a heart.gif. That is a preview of my website and some of HTML and CSS that I used. Thank you!
+
+https://github.com/JackieBoutwell/SBA307-HTML-and-CSS -Github link to this read me Repository
+
+
+Technical Specifications - This website is made with HTML,CSS,JavaScript,Bootstrap, and Flexbox.This website was intented to be a functional webpage for Jaffa Salon. The naviagtion bar helps the users navigate through the different pages(different pages listed and explained above).The footer on the website gives details like phone number, address, social media accounts. The website also provides extras such as animations, hover features, and images. A newsletters is beneficial for both buisness and user.
